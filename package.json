@@ -1,0 +1,17 @@
+{
+  "name": "social-dashboard",
+  "version": "1.0.0",
+  "description": "Multi-user signup/login dashboard tracking social media follower stats",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "better-sqlite3": "^11.3.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^2.7.0"
+  }
+}
